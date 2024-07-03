@@ -4,7 +4,15 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-turbo = { version = "*", package = "turbo-genesis-sdk" }
+bevy = "0.13"
+bevy_asset_loader = { version = "0.20.2", features = ["2d"] }
+bevy_dylib = "0.13"
+tiled = { version = "0.12.0", features = ["zstd", "wasm"] }
 
-[lib]
-crate-type = ["cdylib"]
+# Enable a small amount of optimization in debug mode
+[profile.dev]
+opt-level = 1
+
+# Enable high optimizations for dependencies (incl. Bevy), but not for our code:
+[profile.dev.package."*"]
+opt-level = 3
