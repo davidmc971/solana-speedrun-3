@@ -1,0 +1,68 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "map_0.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "map_0.json": {
+            "scale": 1.84990234375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 0,
+                "y": -0.2702845378239829
+            }
+        },
+        "map_0.tmx": {
+            "scale": 2.5929,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": -3.278182729762051,
+                "y": 36.83134714026767
+            }
+        },
+        "terrainTiles_default.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "topdown_shooter_tilesheet_magenta.tsx": {
+            "scaleInDock": 3.3447,
+            "scaleInEditor": 3.0174
+        },
+        "towerDefense_tilesheet.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.exportedFilePath": "/home/david/Projects/game-jams/2024-07-02-solana-speedrun-3/nftactics/tiled",
+    "last.imagePath": "/home/david/Projects/game-jams/2024-07-02-solana-speedrun-3/nftactics/assets/Topdown Shooter (Pixel)/Tilesheet",
+    "lastUsedTilesetExportFilter": "JSON tileset files (*.tsj *.json)",
+    "map.fixedSize": false,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "openFiles": [
+        "topdown_shooter_tilesheet_magenta.tsx",
+        "map_0.tmx",
+        "map_0.json"
+    ],
+    "project": "nftactics.tiled-project",
+    "recentFiles": [
+        "topdown_shooter_tilesheet_magenta.tsx",
+        "map_0.json",
+        "map_0.tmx",
+        "terrainTiles_default.tsx",
+        "towerDefense_tilesheet.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.spacing": 1,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    },
+    "tileset.useTransparentColor": true
+}

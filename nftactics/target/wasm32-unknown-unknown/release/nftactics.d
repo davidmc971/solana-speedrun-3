@@ -1,0 +1,1 @@
+/home/david/Projects/game-jams/2024-07-02-solana-speedrun-3/nftactics/target/wasm32-unknown-unknown/release/nftactics.wasm: /home/david/Projects/game-jams/2024-07-02-solana-speedrun-3/nftactics/src/lib.rs

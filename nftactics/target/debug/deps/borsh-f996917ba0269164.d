@@ -1,0 +1,11 @@
+/home/david/Projects/game-jams/2024-07-02-solana-speedrun-3/nftactics/target/debug/deps/libborsh-f996917ba0269164.rmeta: /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/lib.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/de/mod.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/de/hint.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/schema.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/schema_helpers.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/ser/mod.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/ser/helpers.rs
+
+/home/david/Projects/game-jams/2024-07-02-solana-speedrun-3/nftactics/target/debug/deps/borsh-f996917ba0269164.d: /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/lib.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/de/mod.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/de/hint.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/schema.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/schema_helpers.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/ser/mod.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/ser/helpers.rs
+
+/home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/lib.rs:
+/home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/de/mod.rs:
+/home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/de/hint.rs:
+/home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/schema.rs:
+/home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/schema_helpers.rs:
+/home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/ser/mod.rs:
+/home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/ser/helpers.rs:
