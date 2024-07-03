@@ -18,10 +18,10 @@
         },
         "map_0.tmx": {
             "scale": 2.5929,
-            "selectedLayer": 1,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": -3.278182729762051,
-                "y": 36.83134714026767
+                "x": -165.45181071387248,
+                "y": -125.53511512206407
             }
         },
         "terrainTiles_default.tsx": {
@@ -38,7 +38,7 @@
         }
     },
     "last.exportedFilePath": "/home/david/Projects/game-jams/2024-07-02-solana-speedrun-3/nftactics/tiled",
-    "last.imagePath": "/home/david/Projects/game-jams/2024-07-02-solana-speedrun-3/nftactics/assets/Topdown Shooter (Pixel)/Tilesheet",
+    "last.imagePath": "/home/david/Projects/game-jams/2024-07-02-solana-speedrun-3/nftactics/sprites",
     "lastUsedTilesetExportFilter": "JSON tileset files (*.tsj *.json)",
     "map.fixedSize": false,
     "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
@@ -46,23 +46,21 @@
     "map.tileHeight": 16,
     "map.tileWidth": 16,
     "openFiles": [
-        "topdown_shooter_tilesheet_magenta.tsx",
-        "map_0.tmx",
-        "map_0.json"
+        "map_0.tmx"
     ],
     "project": "nftactics.tiled-project",
     "recentFiles": [
-        "topdown_shooter_tilesheet_magenta.tsx",
-        "map_0.json",
         "map_0.tmx",
+        "map_0.json",
+        "topdown_shooter_tilesheet_magenta.tsx",
         "terrainTiles_default.tsx",
         "towerDefense_tilesheet.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
-    "tileset.spacing": 1,
+    "tileset.spacing": 0,
     "tileset.tileSize": {
         "height": 16,
         "width": 16
     },
-    "tileset.useTransparentColor": true
+    "tileset.useTransparentColor": false
 }
