@@ -1,8 +1,9 @@
-# Solana Speedrun 3
+# NFTactics
+Auto Battler Game with Solana features
+
+This game is an entry to the Solana Speedrun 3
 
 - https://solanaspeedrun.com/
-
-Auto Battler Game with Solana features
 
 The game jam theme "Last Forever" is realized by being able to place two units per round of a game, which then persist in their spot until the game is over.
 
