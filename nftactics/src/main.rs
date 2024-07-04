@@ -4,7 +4,7 @@ use bevy_asset_loader::loading_state::{
     config::ConfigureLoadingState, LoadingState, LoadingStateAppExt,
 };
 use bevy_ecs_tilemap::prelude::*;
-use ui::splash::splash_plugin;
+use ui::{main_menu::main_menu_plugin, splash::splash_plugin};
 
 mod assets;
 mod bevy_ecs_tilemap_helper_tiled;
@@ -65,10 +65,9 @@ pub fn main() {
         )
         .add_systems(Startup, startup)
         .add_plugins(splash_plugin)
-        .add_systems(
-            OnEnter(GameState::MainMenu),
-            (start_background_audio, game_startup),
-        )
+        .add_plugins(main_menu_plugin)
+        .add_systems(OnEnter(GameState::MainMenu), start_background_audio)
+        .add_systems(OnEnter(GameState::Game), game_startup)
         .add_systems(Update, || {})
         .run();
 }
@@ -77,10 +76,14 @@ fn startup(mut commands: Commands) {
     commands.spawn(Camera2dBundle::default());
 }
 
-fn start_background_audio(mut commands: Commands, assets: Res<NFTacticsAssets>) {
+fn start_background_audio(
+    mut commands: Commands,
+    assets: Res<NFTacticsAssets>,
+    volume: Res<resources::settings::Volume>,
+) {
     commands.spawn(AudioBundle {
         source: assets.audio_nftactics_track_0.clone(),
-        settings: PlaybackSettings::LOOP.with_volume(Volume::new(0.5)),
+        settings: PlaybackSettings::LOOP.with_volume(Volume::new(volume.0 as f32 / 100.0)),
     });
 }
 
