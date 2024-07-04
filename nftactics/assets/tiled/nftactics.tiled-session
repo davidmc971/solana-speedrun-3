@@ -8,6 +8,10 @@
         "."
     ],
     "fileStates": {
+        "The Roguelike 1-13-3 Alpha.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
         "map_0.json": {
             "scale": 1.84990234375,
             "selectedLayer": 0,
@@ -17,16 +21,19 @@
             }
         },
         "map_0.tmx": {
-            "scale": 2.5929,
-            "selectedLayer": 3,
+            "scale": 1.9171,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": -165.45181071387248,
-                "y": -125.53511512206407
+                "x": 168.74445777476396,
+                "y": 249.33493297167595
             }
         },
         "terrainTiles_default.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 1
+        },
+        "topdown_shooter_tilesheet.tsx": {
+            "scaleInDock": 1
         },
         "topdown_shooter_tilesheet_magenta.tsx": {
             "scaleInDock": 3.3447,
@@ -37,25 +44,30 @@
             "scaleInEditor": 1
         }
     },
-    "last.exportedFilePath": "/home/david/Projects/game-jams/2024-07-02-solana-speedrun-3/nftactics/tiled",
+    "last.exportedFilePath": "/home/david/Projects/game-jams/2024-07-02-solana-speedrun-3/nftactics/assets/gfx",
+    "last.externalTilesetPath": "/home/david/Projects/game-jams/2024-07-02-solana-speedrun-3/nftactics/assets/tiled",
     "last.imagePath": "/home/david/Projects/game-jams/2024-07-02-solana-speedrun-3/nftactics/sprites",
     "lastUsedTilesetExportFilter": "JSON tileset files (*.tsj *.json)",
-    "map.fixedSize": false,
-    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.fixedSize": true,
+    "map.height": 22,
+    "map.lastUsedExportFilter": "Tiled map files (*.tmx *.xml)",
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
+    "map.width": 22,
     "openFiles": [
         "map_0.tmx"
     ],
     "project": "nftactics.tiled-project",
     "recentFiles": [
         "map_0.tmx",
-        "map_0.json",
         "topdown_shooter_tilesheet_magenta.tsx",
+        "The Roguelike 1-13-3 Alpha.tsx",
+        "map_0.json",
         "terrainTiles_default.tsx",
         "towerDefense_tilesheet.tsx"
     ],
+    "resizeMap.removeObjects": true,
     "tileset.lastUsedFormat": "tsx",
     "tileset.spacing": 0,
     "tileset.tileSize": {
