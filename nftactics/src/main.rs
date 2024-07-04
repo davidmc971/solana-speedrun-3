@@ -4,7 +4,7 @@ use bevy_asset_loader::loading_state::{
     config::ConfigureLoadingState, LoadingState, LoadingStateAppExt,
 };
 use bevy_ecs_tilemap::prelude::*;
-use ui::{main_menu::main_menu_plugin, splash::splash_plugin};
+use ui::{interface::interface_plugin, main_menu::main_menu_plugin, splash::splash_plugin};
 
 mod assets;
 mod bevy_ecs_tilemap_helper_tiled;
@@ -66,6 +66,7 @@ pub fn main() {
         .add_systems(Startup, startup)
         .add_plugins(splash_plugin)
         .add_plugins(main_menu_plugin)
+        .add_plugins(interface_plugin)
         .add_systems(OnEnter(GameState::MainMenu), start_background_audio)
         .add_systems(OnEnter(GameState::Game), game_startup)
         .add_systems(Update, || {})
